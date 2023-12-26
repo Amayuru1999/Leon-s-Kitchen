@@ -37,21 +37,18 @@ const HomeDesktopLighterVersionPage = () => {
         </button>
       </div>
     </div>
-                <div className="bg-black-900_01 flex flex-col font-poppins items-start justify-end p-4 rounded-[30px] w-[21%] md:w-full">
-                  <div className="flex flex-row gap-3 items-center justify-start md:ml-[0] ml-[9px] w-[81%] md:w-full">
-                    <Img
-                      className="h-[27px] md:h-auto object-cover rounded-[1px] w-[19%]"
-                      src="images/img_maleuser.png"
-                      alt="maleuser"
-                    />
-                    <Text
-                      className="text-lg text-white-A700"
-                      size="txtPoppinsMedium18"
-                    >
-                      Login/Signup
-                    </Text>
-                  </div>
-                </div>
+    <button className="bg-black-900_01 flex flex-col font-poppins items-start justify-end p-4 rounded-[30px] w-[21%] md:w-full focus:outline-none border border-white-A700 hover:bg-gray-400 transition duration-300">
+  <div className="flex flex-row gap-3 items-center justify-start md:ml-[0] ml-[9px] w-[81%] md:w-full">
+    <img
+      className="h-[27px] md:h-auto object-cover rounded-[1px] w-[19%]"
+      src="images/img_maleuser.png"
+      alt="maleuser"
+    />
+    <span className="text-lg text-white-A700">Login/Signup</span>
+  </div>
+</button>
+
+
               </div>
               <div className="font-poppins h-[610px] md:h-[651px] mt-[41px] relative w-full">
                 <Img
@@ -66,7 +63,7 @@ const HomeDesktopLighterVersionPage = () => {
                       src="images/img_notification1.png"
                       alt="notificationOne"
                     />
-                    <div className="absolute bg-gray-50 flex flex-col items-start justify-start left-[7%] pt-[3px] px-[3px] top-[17%] w-[61%]">
+                    <div className="absolute bg-gray-80 flex flex-col items-start justify-start left-[7%] pt-[3px] px-[3px] top-[17%] w-[61%]">
                       <div className="flex flex-col items-start justify-start mt-[3px] w-[91%] md:w-full">
                         <Img
                           className="h-[15px] md:h-auto object-cover w-[29%] sm:w-full"
@@ -185,23 +182,29 @@ const HomeDesktopLighterVersionPage = () => {
                   Up to -10% Leon’s exclusive deals
                 </Text>
                 <div className="h-[61px] relative w-[35%] md:w-full">
-                  <Text
-                    className="absolute bottom-[26%] inset-x-[0] mx-auto text-base text-black-900 w-max"
-                    size="txtPoppinsRegular16"
-                  >
-                    <span className="text-black-900 font-poppins text-left font-normal">
-                      Pasta Spaghetti{" "}
-                    </span>
-                    <span className="text-orange-600 font-poppins text-left font-semibold">
-                      Chinease
-                    </span>
-                    <span className="text-black-900 font-poppins text-left font-normal">
-                      {" "}
-                      Kottu{" "}
-                    </span>
-                  </Text>
-                  <div className="absolute border border-orange-600 border-solid h-[61px] inset-y-[0] my-auto right-[12%] rounded-[30px] w-[44%]"></div>
-                </div>
+  <Text
+    className="absolute bottom-[26%] inset-x-[0] mx-auto text-base text-black-900 w-max"
+    size="txtPoppinsRegular16"
+  >
+    <span className="text-black-900 font-poppins text-left font-normal">
+      
+      Pasta 
+    </span>
+    <span className="text-black-900 font-poppins text-left font-normal">
+      Spaghetti
+      
+    </span>
+    <span className="text-orange-600 font-poppins text-left font-semibold ml-2 mr-2">
+    
+      Chinease
+    </span>
+    <span className="text-black-900 font-poppins text-left font-normal">
+      Kottu
+    </span>
+  </Text>
+  {/* <div className="absolute border border-orange-600 border-solid h-[61px] inset-y-[0] my-auto right-[12%] rounded-[30px] w-[44%]"></div> */}
+</div>
+
               </div>
               <List
                 className="sm:flex-col flex-row gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center w-full"
