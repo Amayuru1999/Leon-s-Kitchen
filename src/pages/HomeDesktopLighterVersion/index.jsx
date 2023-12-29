@@ -182,28 +182,25 @@ const HomeDesktopLighterVersionPage = () => {
                   Up to -10% Leon’s exclusive deals
                 </Text>
                 <div className="h-[61px] relative w-[35%] md:w-full">
-  <Text
-    className="absolute bottom-[26%] inset-x-[0] mx-auto text-base text-black-900 w-max"
-    size="txtPoppinsRegular16"
-  >
-    <span className="text-black-900 font-poppins text-left font-normal">
-      
-      Pasta 
-    </span>
-    <span className="text-black-900 font-poppins text-left font-normal">
+  <div className="absolute bottom-[26%] inset-x-[0] mx-auto">
+    <button className="text-black-900 font-poppins text-lg font-semibold mr-4 focus:outline-none hover:text-yellow-400 transition duration-300 ease-in-out">
+      Pasta
+    </button>
+    <button className="text-black-900 font-poppins text-lg font-semibold mr-4 focus:outline-none hover:text-yellow-400 transition duration-300 ease-in-out">
       Spaghetti
-      
-    </span>
-    <span className="text-orange-600 font-poppins text-left font-semibold ml-2 mr-2">
-    
-      Chinease
-    </span>
-    <span className="text-black-900 font-poppins text-left font-normal">
+    </button>
+    <button className="text-black-900 font-poppins text-lg font-semibold mr-4 focus:outline-none hover:text-yellow-400 transition duration-300 ease-in-out">
+      Chinese
+    </button>
+    <button className="text-black-900 font-poppins text-lg font-semibold focus:outline-none hover:text-yellow-400 transition duration-300 ease-in-out">
       Kottu
-    </span>
-  </Text>
-  {/* <div className="absolute border border-orange-600 border-solid h-[61px] inset-y-[0] my-auto right-[12%] rounded-[30px] w-[44%]"></div> */}
+    </button>
+  </div>
 </div>
+
+
+
+
 
               </div>
               <List
@@ -211,99 +208,96 @@ const HomeDesktopLighterVersionPage = () => {
                 orientation="horizontal"
               >
                 <div className="h-[325px] relative w-full">
-                  <Img
-                    className="h-[325px] m-auto object-cover rounded-[12px] w-full"
-                    src="images/img_rectangle8.png"
-                    alt="rectangleEight"
-                  />
-                  <div className="absolute h-[325px] inset-[0] justify-center m-auto w-full">
-                    <Img
-                      className="h-[325px] m-auto object-cover rounded-[12px] w-full"
-                      src="images/img_rectangle9.png"
-                      alt="rectangleNine"
-                    />
-                    <div className="absolute bottom-[11%] flex flex-col items-center justify-start left-[9%]">
-                      <Text
-                        className="text-2xl md:text-[22px] text-white-A700 sm:text-xl"
-                        size="txtPoppinsBold24"
-                      >
-                        Chicken Fired Rice
-                      </Text>
-                    </div>
-                    <Button
-                      className="absolute cursor-pointer font-bold leading-[normal] min-w-[88px] right-[4%] text-center text-lg top-[0]"
-                      shape="round"
-                    >
-                      -10%
-                    </Button>
-                  </div>
-                </div>
+  <a href="#" className="block h-[325px] m-auto object-cover rounded-[12px] w-full overflow-hidden focus:outline-none">
+    <img
+      className="h-[325px] m-auto object-cover w-full transition-transform duration-300 transform hover:scale-105 focus:scale-105"
+      src="images/img_rectangle9.png"
+      alt="rectangleNine"
+    />
+  </a>
+  <div className="absolute bottom-[11%] flex flex-col items-center justify-start left-[9%]">
+    <Text
+      className="text-2xl md:text-[22px] text-white-A700 sm:text-xl"
+      size="txtPoppinsBold24"
+    >
+      Chicken Fired Rice
+    </Text>
+  </div>
+  <Button
+    className="absolute cursor-pointer font-bold leading-[normal] min-w-[88px] right-[4%] text-center text-lg top-[0]"
+    shape="round"
+  >
+    -10%
+  </Button>
+</div>
+
                 <div className="flex flex-1 flex-col items-center justify-start w-full">
-                  <div className="h-[325px] relative w-full">
-                    <Img
-                      className="h-[325px] m-auto object-cover rounded-[12px] w-full"
-                      src="images/img_rectangle8_325x496.png"
-                      alt="rectangleEight"
-                    />
-                    <div className="absolute h-[325px] inset-[0] justify-center m-auto w-full">
-                      <Img
-                        className="h-[325px] m-auto object-cover rounded-[12px] w-full"
-                        src="images/img_rectangle9_325x496.png"
-                        alt="rectangleNine"
-                      />
-                      <div className="absolute bottom-[11%] flex flex-col items-center justify-start left-[9%]">
-                        <Text
-                          className="text-2xl md:text-[22px] text-white-A700 sm:text-xl"
-                          size="txtPoppinsBold24"
-                        >
-                          Mixed Fried Rice
-                        </Text>
-                      </div>
-                      <Button
-                        className="absolute cursor-pointer font-bold leading-[normal] min-w-[88px] right-[4%] text-center text-lg top-[0]"
-                        shape="round"
-                      >
-                        -10%
-                      </Button>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-1 flex-col items-center justify-start w-full">
-                  <div className="h-[325px] relative w-full">
-                    <Img
-                      className="h-[325px] m-auto object-cover rounded-[12px] w-full"
-                      src="images/img_rectangle8.png"
-                      alt="rectangleEight"
-                    />
-                    <div className="absolute h-[325px] inset-[0] justify-center m-auto w-full">
-                      <Img
-                        className="h-[325px] m-auto object-cover rounded-[12px] w-full"
-                        src="images/img_rectangle9_1.png"
-                        alt="rectangleNine"
-                      />
-                      <div className="absolute bottom-[11%] flex flex-col items-start justify-start left-[9%]">
-                        <Text
-                          className="text-lg text-orange-600"
-                          size="txtPoppinsMedium18Orange600"
-                        >
-                          Restaurant
-                        </Text>
-                        <Text
-                          className="text-2xl md:text-[22px] text-white-A700 sm:text-xl"
-                          size="txtPoppinsBold24"
-                        >
-                          Pasta
-                        </Text>
-                      </div>
-                      <Button
-                        className="absolute cursor-pointer font-bold leading-[normal] min-w-[88px] right-[4%] text-center text-lg top-[0]"
-                        shape="round"
-                      >
-                        -10%
-                      </Button>
-                    </div>
-                  </div>
-                </div>
+  <div className="h-[325px] relative w-full">
+    <a href="#" className="block h-[325px] m-auto rounded-[12px] w-full overflow-hidden focus:outline-none">
+      <img
+        className="h-[325px] m-auto object-cover w-full transition-transform duration-300 transform hover:scale-105 focus:scale-105"
+        src="images/img_rectangle8_325x496.png"
+        alt="rectangleEight"
+      />
+    </a>
+    <div className="absolute h-[325px] inset-0 justify-center m-auto w-full">
+      <a href="#" className="block h-[325px] m-auto rounded-[12px] w-full overflow-hidden focus:outline-none">
+        <img
+          className="h-[325px] m-auto object-cover w-full transition-transform duration-300 transform hover:scale-105 focus:scale-105"
+          src="images/img_rectangle9_325x496.png"
+          alt="rectangleNine"
+        />
+      </a>
+      <div className="absolute bottom-[11%] flex flex-col items-center justify-start left-[9%]">
+        <Text
+          className="text-2xl md:text-[22px] text-white-A700 sm:text-xl"
+          size="txtPoppinsBold24"
+        >
+          Mixed Fried Rice
+        </Text>
+      </div>
+      <Button
+        className="absolute cursor-pointer font-bold leading-[normal] min-w-[88px] right-[4%] text-center text-lg top-[0]"
+        shape="round"
+      >
+        -10%
+      </Button>
+    </div>
+  </div>
+</div>
+
+<div className="flex flex-1 flex-col items-center justify-start w-full">
+  <div className="h-[325px] relative w-full">
+    <a href="#" className="block h-[325px] m-auto object-cover rounded-[12px] w-full overflow-hidden focus:outline-none">
+      <img
+        className="h-[325px] m-auto object-cover w-full transition-transform duration-300 transform hover:scale-105 focus:scale-105"
+        src="images/img_rectangle9_1.png"
+        alt="rectangleNine"
+      />
+    </a>
+    <div className="absolute bottom-[11%] flex flex-col items-start justify-start left-[9%]">
+      <Text
+        className="text-lg text-orange-600"
+        size="txtPoppinsMedium18Orange600"
+      >
+        Restaurant
+      </Text>
+      <Text
+        className="text-2xl md:text-[22px] text-white-A700 sm:text-xl"
+        size="txtPoppinsBold24"
+      >
+        Pasta
+      </Text>
+    </div>
+    <Button
+      className="absolute cursor-pointer font-bold leading-[normal] min-w-[88px] right-[4%] text-center text-lg top-[0]"
+      shape="round"
+    >
+      -10%
+    </Button>
+  </div>
+</div>
+
               </List>
             </div>
           </div>
@@ -316,132 +310,138 @@ const HomeDesktopLighterVersionPage = () => {
                 Leon’s Kitchen Popular Categories 🤩
               </Text>
               <div className="gap-5 grid sm:grid-cols-1 md:grid-cols-3 grid-cols-6 items-center justify-between w-full">
-                <div className="bg-gray-100 border border-black-900_19 border-solid flex flex-1 flex-col gap-2 justify-start pb-2 rounded-[12px] w-full">
-                  <Img
-                    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full"
-                    src="images/img_rectangle13.png"
-                    alt="rectangleThirteen"
-                  />
-                  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px]">
-                    <Text
-                      className="text-black-900_01 text-lg"
-                      size="txtPoppinsBold18"
-                    >
-                      Fried Rice
-                    </Text>
-                    <Text
-                      className="text-[13px] text-orange-600"
-                      size="txtPoppinsRegular13"
-                    >
-                      Categories: 8
-                    </Text>
-                  </div>
-                </div>
-                <div className="bg-gray-100 border border-black-900_19 border-solid flex flex-1 flex-col gap-2 justify-start pb-2 rounded-[12px] w-full">
-                  <Img
-                    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full"
-                    src="images/img_rectangle15.png"
-                    alt="rectangleFifteen"
-                  />
-                  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px]">
-                    <Text
-                      className="text-black-900_01 text-lg"
-                      size="txtPoppinsBold18"
-                    >
-                      Salad
-                    </Text>
-                    <Text
-                      className="text-[13px] text-orange-600"
-                      size="txtPoppinsRegular13"
-                    >
-                      Categories: 5
-                    </Text>
-                  </div>
-                </div>
-                <div className="bg-gray-100 border border-black-900_19 border-solid flex flex-1 flex-col gap-[9px] justify-start pb-2 rounded-[12px] w-full">
-                  <Img
-                    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full"
-                    src="images/img_rectangle17.png"
-                    alt="rectangleSeventeen"
-                  />
-                  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px]">
-                    <Text
-                      className="text-black-900_01 text-lg"
-                      size="txtPoppinsBold18"
-                    >
-                      Pasta
-                    </Text>
-                    <Text
-                      className="text-[13px] text-orange-600"
-                      size="txtPoppinsRegular13"
-                    >
-                      Categories: 9
-                    </Text>
-                  </div>
-                </div>
-                <div className="bg-gray-100 border border-black-900_19 border-solid flex flex-1 flex-col gap-2 justify-start pb-2 rounded-[12px] w-full">
-                  <Img
-                    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full"
-                    src="images/img_rectangle19.png"
-                    alt="rectangleNineteen"
-                  />
-                  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px]">
-                    <Text
-                      className="text-black-900_01 text-lg"
-                      size="txtPoppinsBold18"
-                    >
-                      Pizza
-                    </Text>
-                    <Text
-                      className="text-[13px] text-orange-600"
-                      size="txtPoppinsRegular13"
-                    >
-                      Categories: 3
-                    </Text>
-                  </div>
-                </div>
-                <div className="bg-gray-100 border border-black-900_19 border-solid flex flex-1 flex-col gap-[11px] justify-start pb-2 rounded-[12px] w-full">
-                  <Img
-                    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full"
-                    src="images/img_rectangle21.png"
-                    alt="rectangleTwentyOne"
-                  />
-                  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px]">
-                    <Text
-                      className="text-black-900_01 text-lg"
-                      size="txtPoppinsBold18"
-                    >
-                      Burgers
-                    </Text>
-                    <Text
-                      className="text-[13px] text-orange-600"
-                      size="txtPoppinsRegular13"
-                    >
-                      Categories: 4
-                    </Text>
-                  </div>
-                </div>
-                <div className="bg-gray-100 border border-black-900_19 border-solid flex flex-1 flex-col gap-[9px] justify-start pb-2 rounded-[12px] w-full">
-                  <Img
-                    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full"
-                    src="images/img_rectangle23.png"
-                    alt="rectangleTwentyThree"
-                  />
-                  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px]">
-                    <Text
-                      className="text-black-900_01 text-lg"
-                      size="txtPoppinsBold18"
-                    >
-                      Kottu
-                    </Text>
-                    <Text
-                      className="text-[13px] text-orange-600"
-                      size="txtPoppinsRegular13"
-                    >
-                      Categories: 11
-                    </Text>
-                  </div>
-                </div>
+              <a href="#" className="block rounded-[12px] overflow-hidden focus:outline-none">
+  <Img
+    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full transition-transform duration-300 transform hover:scale-105 focus:scale-105"
+    src="images/img_rectangle13.png"
+    alt="rectangleThirteen"
+  />
+  <div className="bg-gray-100 border-t border-black-900_19 border-solid flex flex-col items-start justify-start p-2">
+    <Text
+      className="text-black-900_01 text-lg"
+      size="txtPoppinsBold18"
+    >
+      Fried Rice
+    </Text>
+    <Text
+      className="text-[13px] text-orange-600"
+      size="txtPoppinsRegular13"
+    >
+      Categories: 8
+    </Text>
+  </div>
+</a>
+
+                <a href="#" className="block bg-gray-100 border border-black-900_19 border-solid flex flex-col gap-2 justify-start pb-2 rounded-[12px] w-full overflow-hidden focus:outline-none">
+  <Img
+    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full transition-transform duration-300 transform hover:scale-105 focus:scale-105"
+    src="images/img_rectangle15.png"
+    alt="rectangleFifteen"
+  />
+  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px]">
+    <Text
+      className="text-black-900_01 text-lg"
+      size="txtPoppinsBold18"
+    >
+      Salad
+    </Text>
+    <Text
+      className="text-[13px] text-orange-600"
+      size="txtPoppinsRegular13"
+    >
+      Categories: 5
+    </Text>
+  </div>
+</a>
+
+<a href="#" className="block bg-gray-100 border border-black-900_19 border-solid flex flex-col gap-[9px] justify-start pb-2 rounded-[12px] w-full overflow-hidden focus:outline-none">
+  <Img
+    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full transition-transform duration-300 transform hover:scale-105 focus:scale-105"
+    src="images/img_rectangle17.png"
+    alt="rectangleSeventeen"
+  />
+  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px]">
+    <Text
+      className="text-black-900_01 text-lg"
+      size="txtPoppinsBold18"
+    >
+      Pasta
+    </Text>
+    <Text
+      className="text-[13px] text-orange-600"
+      size="txtPoppinsRegular13"
+    >
+      Categories: 9
+    </Text>
+  </div>
+</a>
+
+<a href="#" className="block bg-gray-100 border border-black-900_19 border-solid rounded-[12px] w-full focus:outline-none">
+  <Img
+    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full transition-transform duration-300 transform hover:scale-105 focus:scale-105"
+    src="images/img_rectangle19.png"
+    alt="rectangleNineteen"
+  />
+  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px] p-2">
+    <Text
+      className="text-black-900_01 text-lg"
+      size="txtPoppinsBold18"
+    >
+      Pizza
+    </Text>
+    <Text
+      className="text-[13px] text-orange-600"
+      size="txtPoppinsRegular13"
+    >
+      Categories: 3
+    </Text>
+  </div>
+</a>
+
+<a href="#" className="block bg-gray-100 border border-black-900_19 border-solid rounded-[12px] w-full focus:outline-none">
+  <Img
+    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full transition-transform duration-300 transform hover:scale-105 focus:scale-105"
+    src="images/img_rectangle21.png"
+    alt="rectangleTwentyOne"
+  />
+  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px] p-2">
+    <Text
+      className="text-black-900_01 text-lg"
+      size="txtPoppinsBold18"
+    >
+      Burgers
+    </Text>
+    <Text
+      className="text-[13px] text-orange-600"
+      size="txtPoppinsRegular13"
+    >
+      Categories: 4
+    </Text>
+  </div>
+</a>
+
+<a href="#" className="block bg-gray-100 border border-black-900_19 border-solid rounded-[12px] w-full focus:outline-none">
+  <Img
+    className="h-[203px] md:h-auto object-cover rounded-tl-[12px] rounded-tr-[12px] w-full transition-transform duration-300 transform hover:scale-105 focus:scale-105"
+    src="images/img_rectangle23.png"
+    alt="rectangleTwentyThree"
+  />
+  <div className="flex flex-col items-start justify-start md:ml-[0] ml-[22px] p-2">
+    <Text
+      className="text-black-900_01 text-lg"
+      size="txtPoppinsBold18"
+    >
+      Kottu
+    </Text>
+    <Text
+      className="text-[13px] text-orange-600"
+      size="txtPoppinsRegular13"
+    >
+      Categories: 11
+    </Text>
+  </div>
+</a>
+
               </div>
             </div>
           </div>
@@ -609,7 +609,7 @@ const HomeDesktopLighterVersionPage = () => {
                                 size="txtPoppinsMedium16"
                               >
                                 <>
-                                  Your can track your order
+                                  You can track your order
                                   <br />
                                   status with delivery time
                                 </>
