@@ -26,4 +26,4 @@ This website has the following features and functionality:
 
 This project is licensed under the MIT License. See the [LICENSE] file for more details.
 
-This project was created as part of a web development course by [Noble Desktop](https://www.nobledesktop.com/learn/git/create-a-readme-file). The images and content are taken from [Unsplash] and [Lorem Ipsum].
+
